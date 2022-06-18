@@ -1,0 +1,9 @@
+# Keterangan JavaScript
+
+- Menampung data daftar juara
+- Merender data daftar juara untuk ditampilkan ke tabel HTML
+
+# Sumber Artikel
+
+- https://id.wikipedia.org/wiki/Liga_Utama_Inggris
+- https://www.goal.com/id/berita/daftar-juara-liga-inggris/1tupnpongui3w15jdud1rpdbt2
