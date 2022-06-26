@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #0c111b;
+    color: #fff;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+h3, h4 {
+    font-weight: 500;
+}
+
+h4 {
+    color: #a0a3a8;
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid #192133;
+}
+
+input, button {
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: #fff;
+}
+
+input {
+    background-color: #192133;
+    padding: 10px 15px;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+}
+ 
+header {
+    box-shadow: 0 3px 20px #070a0f;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#add h2 {
+    margin-bottom: 10px;
+}
+
+#add form {
+    display: grid;
+}
+
+#add input {
+    margin-bottom: 10px;
+}
+
+#add button {
+    margin: 10px 0 0;
+    font-weight: 700;
+    padding: 10px;
+    background-color: #1f80e0;
+}
+
+#search form {
+    display: flex;
+}
+
+#search input {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+#search button {
+    color: #1f80e0;
+    border: 1px solid #1f80e0;
+    background-color: transparent;
+}
+
+.list {
+    background-color: #192133;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px 15px;
+}
+
+article {
+    border-top: 1px solid #0c111b;
+    padding: 10px 0 0;
+    margin-top: 10px;
+}
+
+.btn-main {
+    background-color: #27AE60 ;
+}
+
+.btn-cancel {
+    background-color: transparent;
+    color: #a0a3a8;
+}
+
+.btn-delete {
+    color: #E74C3C;
+    background-color: transparent;
+}
+
+.dialog {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+.dialog-box {
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.dialog-content {
+    background-color: #192133;
+    padding: 15px 20px;
+    text-align: right;
+    border-radius: 5px;
+}
+
+.dialog-content h3 {
+    text-align: left;
+    margin-bottom: 10px;
+}

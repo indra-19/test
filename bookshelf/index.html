@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf Apps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bookshelf Apps</h1>
+    </header>
+
+    <main>
+        <section id="add">
+            <h2>Masukkan buku baru</h2>
+            <form action="#" id="add-form">
+                <input type="text" placeholder="Judul" id="title" required autocomplete="off">
+                <input type="text" placeholder="Penulis" id="writer" required autocomplete="off">
+                <input type="number" min="0" placeholder="Tahun" id="year" required autocomplete="off">
+                <div>
+                    <input id="is-finished" type="checkbox">
+                    <label for="is-finished">Selesai dibaca</label>
+                </div>
+                <button type="submit">Masukkan buku ke rak</button>
+            </form>
+        </section>
+        <hr>
+        <section id="search">
+            <form action="#" id="search-form">
+                <input type="search" placeholder="Cari judul buku" id="search-value" autocomplete="off">
+                <button type="submit">Cari</button>
+            </form>
+        </section>
+        <section class="list">
+            <h2>Belum selesai dibaca</h2>
+            <div id="unfinished-book">
+                <!-- <article>
+                    <h3>Book Title</h3>
+                    <h4>John Doe (2022)</h4>
+                    <button class="btn-main">Selesai dibaca</button>
+                    <button class="btn-delete">Hapus</button>
+                </article> -->
+            </div>
+        </section>
+        <section class="list">
+            <h2>Selesai dibaca</h2>
+            <div id="finished-book">
+                <!-- <article>
+                    <h3>Book Title</h3>
+                    <h4>John Doe (2022)</h4>
+                    <button class="btn-main">Belum selesai dibaca</button>
+                    <button class="btn-delete">Hapus</button>
+                </article> -->
+            </div>
+        </section>
+    </main>
+
+    <div class="dialog">
+        <div class="dialog-box">
+            <div class="dialog-content">
+                <!-- <h3>Yakin ingin menghapus "Book Title"?</h3>
+                <button class="btn-cancel">Batal</button>
+                <button class="btn-delete">Hapus</button> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
