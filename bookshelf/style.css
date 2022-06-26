@@ -20,7 +20,7 @@ h4 {
 
 hr {
     margin: 20px 0;
-    border: 1px solid #030b17;
+    border: 1px solid #192133;
 }
 
 input, button {
@@ -32,7 +32,7 @@ input, button {
 }
 
 input {
-    background-color: #030b17;
+    background-color: #192133;
     padding: 10px 15px;
 }
 
@@ -90,7 +90,7 @@ main {
 }
 
 .list {
-    background-color: #030b17;
+    background-color: #192133;
     border-radius: 5px;
     margin: 10px 0;
     padding: 10px 15px;
@@ -103,7 +103,7 @@ article {
 }
 
 .btn-main {
-    background-color: green;
+    background-color: #27AE60 ;
 }
 
 .btn-cancel {
@@ -112,7 +112,7 @@ article {
 }
 
 .btn-delete {
-    color: red;
+    color: #E74C3C;
     background-color: transparent;
 }
 
@@ -136,7 +136,7 @@ article {
 }
 
 .dialog-content {
-    background-color: #030b17;
+    background-color: #192133;
     padding: 15px 20px;
     text-align: right;
     border-radius: 5px;
